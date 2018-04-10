@@ -1,2 +1,29 @@
-@import "https://pfdk.github.io/frontend/pfdk-min.css";
-@import "https://pfdk.github.io/modules/modules.css";
+@import "https://racin.github.io/PfDK.github.io/frontend/pfdk-min.css";
+@import "https://racin.github.io/PfDK.github.io/modules/modules.css";
+
+#application.ic-app #header.ic-app-header .ic-app-header__main-navigation .ic-app-header__logomark-container .ic-app-header__logomark {
+    background-image: url("http://racin.no/canvas/UiS_forenklet_negativ_RGB.png") !important;
+    background-size: 30% !important;
+    margin-top: -4px !important;
+}
+
+#header {
+    background-color: #0A3CA0 !important;
+}
+    
+li[id*=context_external_tool] {
+    display: none !important;
+}
+
+#application.ic-app #header.ic-app-header {
+    border-bottom: 5px solid #AAC6E9 !important;
+}
+
+#mmooc-notification-count, #mmooc-unread-messages-count {
+    color: #ffffff !important;
+    background: #eb5f0a !important;
+}
+
+body, #main, #application.ic-app #wrapper #left-side {
+    background: #ffffff !important;
+}
