@@ -2,7 +2,7 @@
 @import "https://racin.github.io/PfDK.github.io/modules/modules.css";
 
 #application.ic-app #header.ic-app-header .ic-app-header__main-navigation .ic-app-header__logomark-container .ic-app-header__logomark {
-    background-image: url("http://racin.no/canvas/UiS_forenklet_negativ_RGB.png") !important;
+    background-image: url("https://racin.github.io/PfDK.github.io/logo/UiS_forenklet_negativ_RGB.png") !important;
     background-size: 30% !important;
     margin-top: -4px !important;
 }
