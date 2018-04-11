@@ -27,3 +27,43 @@ li[id*=context_external_tool] {
 body, #main, #application.ic-app #wrapper #left-side {
     background: #ffffff !important;
 }
+
+/* Hover meny */
+.mmooc-menu-item .mmooc-menu-item-drop {
+    background: #AAC6E9 !important; 
+}
+
+/* Bullets */
+.mmooc-menu-item .mmooc-menu-item-drop ul li {
+    color: #0A3CA0 !important;
+}
+
+/* Hover notification text */
+.mmooc-menu-item .mmooc-menu-item-drop ul li .mmooc-notification-type {
+    color: #0A3CA0 !important;
+}
+
+/* Venstre meny option selected */
+.list-view ul > li a.active, .list-view ul > li a:active:hover {
+    color: #eb5f0a !important;
+    border-right: 0px !important;
+}
+
+.list-view ul#section-tabs > li {
+    border: 0px !important;
+}
+
+.list-view ul > li:hover {
+    border: 0px !important;
+    background: none;
+    text-decoration: underline;
+}
+
+.list-view > ul > li > a, .list-view > nav > ul > li > a:hover {
+    border-radius: 0px !important;
+}
+
+/* Link color on course page */
+div.course:not(.unpublished) a {
+  color: #0A3CA0 !important;
+}
